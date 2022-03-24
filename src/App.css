@@ -1,7 +1,7 @@
 .App {
   display: flex;
   flex-direction: column;
-  align-items: center;
+ text-align: center;
 }
 
 h1 {
@@ -10,4 +10,11 @@ h1 {
 
 .linha {
   display: flex;
+}
+
+@media only screen and (max-width: 720px) {
+  .linha {
+    display: flex;
+    flex-direction: column;
+  }
 }
